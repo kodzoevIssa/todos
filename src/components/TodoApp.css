@@ -1,0 +1,80 @@
+.todos {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
+.todos-title {
+  margin-bottom: 10px;
+  font-size: 100px;
+  font-weight: 100;
+  color: rgb(133, 58, 58);
+  opacity: 0.6;
+  user-select: none;
+}
+.todos-input {
+  margin-bottom: 50px;
+  width: 340px;
+  height: 20px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ffffff;
+  color: rgb(104, 104, 104);
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+.todos-add {
+  width: 100px;
+  height: 40px;
+  margin-left: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(154, 82, 82);
+  color: rgb(224, 224, 224);
+  cursor: pointer;
+}
+.todos-delete {
+  width: 100px;
+  height: 40px;
+  margin-left: 312px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(154, 82, 82);
+  color: rgb(224, 224, 224);
+  cursor: pointer;
+}
+.todos-search {
+  width: 340px;
+  height: 20px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+.todos-wrap {
+  margin-top: 10px;
+  width: 363px;
+  display: flex;
+  justify-content: space-between;
+}
+.todos-tasks {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.task {
+  padding: 6px;
+  width: 350px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(221, 220, 220);
+  cursor: pointer;
+}
+.line-through {
+  text-decoration: line-through;
+}
